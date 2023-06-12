@@ -1,0 +1,66 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background-color: #0f0826;
+}
+/* menu CSS */
+.navbar{
+	padding: 50px;
+}
+.navbar ul li a{
+	color: #fff !important;
+	text-transform: uppercase;
+	margin: 4px;
+}
+
+
+/* Slider CSS */
+.slider_section .carousel-item{
+	height: 550px;
+}
+.slider_section h2 {
+    color: #fff;
+    font-size: 63px;
+    font-weight: 700;
+}
+
+.slider_section p{
+	color: #cbcbcb;
+    font-size: 17px;
+    padding: 10px 0;
+}
+.slider_section button{
+	background: linear-gradient(1.09deg, #6e1fea -11.78%, #4289ff 198.26%);
+    box-shadow: 0px 4px 10px rgba(31, 13, 69, 0.15);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1;
+    padding: 18px 25px;
+    border-bottom: none;
+    transition: 0.3s;
+}
+.slider_wrapper{
+	padding: 0px 49px 0px 56px;
+}
+
+.fact_bg{
+	justify-content: center;
+	margin-top: 60px;
+	padding: 30px;
+	background: #211548;
+    border-radius: 16px;
+}
+.fact_bg img{
+	display: block;
+	margin: 0 auto;
+}
+.fact_bg h3{
+	text-align: center;
+	color: #fff;
+	padding: 5px;
+	font-size: 25px;
+}
